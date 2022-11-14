@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "imageprocessing"
+version = "0.1.0"
+description = ""
+authors = ["ademclk <ademonurcelik@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+opencv-python = "4.5.5.62"
+matplotlib = "^3.6.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+

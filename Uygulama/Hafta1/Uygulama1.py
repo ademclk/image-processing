@@ -5,9 +5,9 @@ from matplotlib import pyplot as plt
 print(cv2.__version__)
 
 
-img1 = cv2.imread('../Pictures/picture1.jpg', cv2.IMREAD_COLOR)  # 1
-img2 = cv2.imread('../Pictures/picture2.jpg', cv2.IMREAD_GRAYSCALE)  # 0
-img3 = cv2.imread('../Pictures/picture3.jpg', cv2.IMREAD_UNCHANGED)  # -1
+img1 = cv2.imread("../../Pictures/picture3.jpg", cv2.IMREAD_COLOR)  # 1
+img2 = cv2.imread('../../Pictures/picture2.jpg', cv2.IMREAD_GRAYSCALE)  # 0
+img3 = cv2.imread('../../Pictures/picture3.jpg', cv2.IMREAD_UNCHANGED)  # -1
 
 
 # cv2.imread(path, flag),
